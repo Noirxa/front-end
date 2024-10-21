@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chocola</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+      </style> 
+
+
+
+  </head>
+  <header class="navbar">
+    <nav >
+      <ul> 
+        <img src="https://paaskoerier.nl/wp-content/uploads/2024/01/tony.jpeg" alt="logo">
+        <li> <a href="index.html">Main Page</a></li>
+        <li> <a href="mission.html">Bestellen</a> </li>
+        <li><a href="Choco.html"> CHOCO STORE </a></li>
+     
+    </ul> 
+  </nav>
+</header>
+<div class="ball"></div>
+<br>
+    
+    <div class="title">
+  
+      <h1> Bestel nu!</h1>
+    </div>
+    <section class="formulier">
+  <form action="https://docent.cmi.hr.nl/moora/frontend/send-mail.php" method="POST">
+    
+    <div class="formfield"> 
+    <label for="firstname">Voornaam*</label>
+    <input type="text" required placeholder="Hans" name="firstname" id="firstname">
+  </div>
+
+  <div class="formfield">
+    <label for="lastname">Achternaam*</label>
+    <input type="text" required  placeholder="de Jong" name="lastname" id="lastname">
+  </div>
+
+  <div class="formfield">
+      <label for="birthdate">Geboorte datum*</label>
+      <input type="date" required id="birthdate" name="birthdate">
+  </div>
+ 
+  <div class="formfield">
+    
+  <label for="email">Email*</label>
+  <input type="email" required placeholder="lol@gmail.com" name="email" id="email">
+</div>
+
+<div class="formfield" >
+  <label for="postcode"> Postcode*</label>
+  <input type="text" required placeholder="1234AA" name="postcode" id="postcode">
+</div>
+
+<h2> Welke chocolade smaak?*</h2>
+<div class="formfield">
+<select id="smaak" name="smaak" required>
+  <option value="" disabled selected>Kies een smaak</option>
+  <option value="Chocolade Melk">Chocolade Melk</option>
+  <option value="Caramel zeezout">Caramel zeezout</option>
+  <option value="puur">puur</option>
+  <option value="Wit">Wit</option>
+</select>
+</div>
+
+
+
+
+<br>
+<h2 class="h2t"> Kaartje erbij, is wel zo lief!</h2>
+<div class="kaart">
+<input type="radio" id="javascript" name="for_language" id="css">
+<label for="Gefelicteerd"> Gefelicteerd </label>
+<input type="radio" id="javascript" name="for_language" id="css">
+<label for="Fijne verjaardag"> Fijne verjaardag</label>
+<input type="radio" id="javascript" name="for_language" id="css">
+<label for="Beterschap"> Beterschap </label>
+<input type="radio" id="javascript" name="for_language" id="css">
+<label for="sorry">Sorry..</label>
+</div>
+
+<br>
+<div class="opmerking">
+
+  <h3> Opmerkingen? Laat het ons weten !</h3>
+  <label for="message"></label>
+  <textarea rows="10" cols="80"  name="message" id="message"> </textarea>
+
+
+</div>
+
+<div class=" formfield">
+  <input type="checkbox" id="checkbox" name="checkbox" value="checkbox" required>
+<label for="checkbox"> Ik ga akkoord met de voorwaarden en heb dit gelezen* </label>
+</div>
+
+<div >
+  <button  type="submit" onclick="alert('Succesvol verstuurd. We reageren binnen 3 werkdagen.')">Bestellen</button>
+  
+</div>
+
+
+
+
+
+</section>
+  
+    
+    
+
+</form>
+      
+<main>
+
+  <footer>
+    <h3> Made by Aya Zaid </h3>
+  </footer>
+  
+
+
+
+
+
+
+
+
+</main>
